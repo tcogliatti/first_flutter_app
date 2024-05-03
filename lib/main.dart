@@ -135,7 +135,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: _layout,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'El número misterioso es:',
             ),
             Text(
               '$_counter',
@@ -160,19 +160,19 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           SpeedDialChild(
             child: const Icon(Icons.plus_one,color: Colors.white), 
-            label: 'Increment x1',
+            label: 'Incrementar x1',
             backgroundColor: Colors.blueAccent,
             onTap: _incrementCounter,
           ),
           SpeedDialChild(
             child: const Text('+7',),
-            label: 'Increment x7',
+            label: 'Incrementar x7',
             backgroundColor: Color.fromARGB(255, 255, 183, 68),
             onTap: _incrementCounterX7,
           ),
           SpeedDialChild(
             child: const Icon(Icons.delete,color: Colors.white),
-            label: 'Clear',
+            label: 'Foja Cero',
             backgroundColor: Color.fromARGB(255, 255, 118, 68),
             onTap: _clearCount,
           ),
